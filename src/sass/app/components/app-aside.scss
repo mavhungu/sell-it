@@ -7,6 +7,7 @@
     overflow: auto;
     z-index: 10;
     margin-top: 58px;
+    font-family: $font-family;
     transition: left 0.3s ease,
                 width 0.3s ease;
     border-right: 1px solid $border-color;
@@ -18,20 +19,35 @@
     margin-bottom: 0;
     list-style: none;
     padding: 0;
-    justify-items: center;
-    text-align: center;
-    font-size: 20px;
+    //font-size: 20px;
     margin-left: 3px;
     margin-right: 3px;
-    
 }
-.app-menu_item{
+.app-menu .nav-link > i{
+    padding: 4px;
+}
+.app-menu .nav-link p {
+    display: inline-block;
+    margin: 0;
+    padding: 4px;
+  }
+  .app-menu > .nav-item {
+    margin-bottom: 0;
+  }
+.app-menu > .nav-item .nav-icon {
+    font-size: 1.2rem;
+    margin-right: .2rem;
     text-align: center;
-    font-size: 20px;
+    width: 1.6rem;
+  }
+.app-menu_item{
+    display: flex;
+    //font-size: 20px;
     background-color: darken($primary-hex,25%);
     border-radius: 2px;
-    padding: 38px solid transparent;
-    color:$color;
+    padding: 8px solid transparent;
+    color:ghostwhite;
+
     &:hover,
     &:focus{
         text-decoration: none;

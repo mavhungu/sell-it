@@ -12232,6 +12232,7 @@ readers do not read off random characters that represent icons */
   overflow: auto;
   z-index: 10;
   margin-top: 58px;
+  font-family: Georgia, "Times New Roman", Times, serif;
   -webkit-transition: left 0.3s ease, width 0.3s ease;
   transition: left 0.3s ease, width 0.3s ease;
   border-right: 1px solid silver;
@@ -12243,19 +12244,33 @@ readers do not read off random characters that represent icons */
   margin-bottom: 0;
   list-style: none;
   padding: 0;
-  justify-items: center;
-  text-align: center;
-  font-size: 20px;
   margin-left: 3px;
   margin-right: 3px; }
 
-.app-menu_item {
+.app-menu .nav-link > i {
+  padding: 4px; }
+
+.app-menu .nav-link p {
+  display: inline-block;
+  margin: 0;
+  padding: 4px; }
+
+.app-menu > .nav-item {
+  margin-bottom: 0; }
+
+.app-menu > .nav-item .nav-icon {
+  font-size: 1.2rem;
+  margin-right: .2rem;
   text-align: center;
-  font-size: 20px;
+  width: 1.6rem; }
+
+.app-menu_item {
+  display: -webkit-box;
+  display: flex;
   background-color: #005080;
   border-radius: 2px;
-  padding: 38px solid transparent;
-  color: #fff; }
+  padding: 8px solid transparent;
+  color: ghostwhite; }
   .app-menu_item:hover, .app-menu_item:focus {
     text-decoration: none;
     background-color: #444;
