@@ -1,0 +1,25 @@
+@media (min-device-width : 320px) and (max-device-width : 480px) {
+
+    
+}
+@media (min-width: 481px) and (max-width: 767px) {
+   .app-aside{
+    width: 186px;
+   }
+   .app.app-slide-toggle .app-aside{
+    //transition: all 0.3s ease;
+    left: -186px;
+    }
+    .app.app-slide-toggle .app-main{
+        transition: all 0.3s ease;
+        margin-left: 0;
+    }
+}
+/*.app.app-slide-toggle .app-aside{
+    //transition: all 0.3s ease;
+    left: -186px;
+}
+.app.app-slide-toggle .app-main{
+    transition: all 0.3s ease;
+    margin-left: 0;
+}*/

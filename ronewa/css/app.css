@@ -12269,18 +12269,32 @@ readers do not read off random characters that represent icons */
   -webkit-transition: margin-left 0.3s ease;
   transition: margin-left 0.3s ease; }
 
+.app-title {
+  margin-bottom: 10px; }
+
+.mm {
+  display: -webkit-box;
+  display: flex;
+  align-self: flex-end;
+  -webkit-box-flex: 1;
+          flex-grow: 1; }
+
+.mm li {
+  padding-left: 0;
+  list-style: none; }
+
 @media (max-width: 480px) {
   .app-aside {
     left: -186px;
-    -webkit-transition: left 0.3s ease, width 0.3s ease;
-    transition: left 0.3s ease, width 0.3s ease; }
+    -webkit-transition: all 0.3s ease, width 0.3s ease;
+    transition: all 0.3s ease, width 0.3s ease; }
   .app-content {
     margin-left: 0px; }
   .app.app-slidebar-toggled .app-aside {
     margin-left: 186px;
     width: 186px;
-    -webkit-transition: left 0.3s ease, width 0.3s ease;
-    transition: left 0.3s ease, width 0.3s ease; }
+    -webkit-transition: all 0.3s ease, width 0.3s ease;
+    transition: all 0.3s ease, width 0.3s ease; }
   .app.app-slidebar-toggled .app-content {
     margin-left: 0px; }
   .card {

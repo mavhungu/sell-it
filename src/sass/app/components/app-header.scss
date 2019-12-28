@@ -1,0 +1,84 @@
+.app-header{
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0 25px;
+    background-color: darken(ghostwhite,3%);
+    position: fixed;
+    width: 100%;
+}
+.app-navbrand{
+    padding: 15px;
+    //margin-right: 5px;
+    color: lighten($color: $color-black, $amount: 30%);
+    font-family: $app-font-serif;
+    font-size: 19px;
+    &:focus,
+    &:hover{
+        text-decoration: none;
+        color: lighten($color-black,30%);
+    }
+}
+.app-header-toggle{
+    display: block;
+    padding: 18px;
+    line-height: 18px;
+    transition: background-color 0.3s ease;
+    &:hover,
+    &:focus{
+        background: rgba(0,0,0,.1);
+    }
+    @media (max-width:767px) {
+        order: -1;
+    }
+}
+.app-nav{
+    @include list-unstyled();
+    display: flex;
+    margin-bottom: 0;
+    justify-content: flex-end;
+    @media(max-width:768px){
+        flex:1 0 auto;
+    }
+}
+.app-search-list{
+    position: relative;
+    display: flex;
+    align-self: center;
+    margin-right: 15px;
+    @media (max-width:480px) {
+        display: none;
+    }
+}
+.app-search-input{
+    border:0;
+    padding:5px 10px;
+    padding-right:30px;
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, .8);
+}
+.app-search-button{
+    position: absolute;
+    right:0;
+    top:7px;
+    padding: 0 10px;
+    border: 0;
+    color: rgba(0, 0, 0,.8);
+    background: none;
+    cursor: pointer;
+}
+.app-user{
+    display: block;
+    padding: 18px;
+    line-height: 18px;
+    color: #fff;
+    transition: background-color 0.3s ease;
+    &:hover,
+    &:focus{
+        background: rgba(0,0,0,.1);
+    }
+}
+.app-user .user i{
+    color: rgb(155, 155, 155);
+}

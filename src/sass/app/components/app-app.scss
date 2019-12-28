@@ -1,0 +1,23 @@
+.app-content{
+    top: 0;
+    bottom: 0;
+    background-color: $color-ghostwhite;
+    margin-left: 186px;
+    min-height: calc(100vh - 50px);
+    height: 50px;
+    padding: 30px;
+    margin-top: 58px;
+    transition: margin-left 0.3s ease;
+
+}
+.app-title{
+    margin-bottom: 10px;
+}
+.mm{
+    display: flex;
+    align-self: flex-end;
+    flex-grow: 1;
+}
+.mm li{
+    @include list-unstyled();
+}

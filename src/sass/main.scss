@@ -1,0 +1,17 @@
+@import "_vars.scss";
+@import "_custome.scss";
+@import "~bootstrap/scss/bootstrap";
+
+$fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-free/scss/brands.scss";
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+@import "~@fortawesome/fontawesome-free/scss/regular.scss";
+
+
+@import "app/components/app-header.scss";
+@import "app/components/app-aside.scss";
+@import "app/components/app-footer.scss";
+@import "app/components/app-app.scss";
+//@import "app/components/app-media.scss";
+@import "app/components/app-ronewa.scss";

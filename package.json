@@ -1,0 +1,39 @@
+{
+  "name": "sell_it",
+  "version": "1.0.0",
+  "description": "sell-it",
+  "main": "js/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start:dev": "webpack-dev-server"
+  },
+  "keywords": [
+    "sell-it"
+  ],
+  "author": "Mavhungu Ronewa",
+  "license": "ISC",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.0",
+    "autoprefixer": "^9.7.3",
+    "css-loader": "^3.3.2",
+    "fibers": "^4.0.2",
+    "file-loader": "^5.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-loader": "^0.6.0",
+    "node-sass": "^4.13.0",
+    "post-loader": "^2.0.0",
+    "postcss-loader": "^3.0.0",
+    "sass": "^1.23.7",
+    "sass-loader": "^8.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0"
+  }
+}
