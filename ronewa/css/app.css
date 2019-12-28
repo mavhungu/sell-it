@@ -12274,10 +12274,7 @@ readers do not read off random characters that represent icons */
 
 .mm {
   display: -webkit-box;
-  display: flex;
-  align-self: flex-end;
-  -webkit-box-flex: 1;
-          flex-grow: 1; }
+  display: flex; }
 
 .mm li {
   padding-left: 0;

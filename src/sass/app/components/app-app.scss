@@ -15,8 +15,6 @@
 }
 .mm{
     display: flex;
-    align-self: flex-end;
-    flex-grow: 1;
 }
 .mm li{
     @include list-unstyled();
