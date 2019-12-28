@@ -12267,14 +12267,17 @@ readers do not read off random characters that represent icons */
     padding: 2px;
     color: #fff; }
 
+.app-footer {
+  clear: both;
+  height: 10%; }
+
 .app-content {
   top: 0;
   bottom: 0;
+  padding: 30px;
   background-color: ghostwhite;
   margin-left: 186px;
   min-height: calc(100vh - 50px);
-  height: 50px;
-  padding: 30px;
   margin-top: 58px;
   -webkit-transition: margin-left 0.3s ease;
   transition: margin-left 0.3s ease; }
@@ -12305,13 +12308,21 @@ readers do not read off random characters that represent icons */
   .app.app-slidebar-toggled .app-content {
     margin-left: 0px; }
   .card {
-    margin-top: 5px; } }
+    margin-top: 5px; }
+  .app-footer {
+    margin-left: 0px; }
+  .app.app-slidebar-toggled .app-footer {
+    margin-left: 0px; } }
 
 @media (min-width: 768px) {
   .app-aside {
     width: 186px; }
+  .app-footer {
+    margin-left: 186px; }
   .app.app-slidebar-toggled .app-aside {
     left: -186px; }
   .app.app-slidebar-toggled .app-content {
+    margin-left: 0px; }
+  .app.app-slidebar-toggled .app-footer {
     margin-left: 0px; } }
 

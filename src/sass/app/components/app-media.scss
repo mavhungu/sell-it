@@ -1,25 +1,45 @@
-@media (min-device-width : 320px) and (max-device-width : 480px) {
-
-    
-}
-@media (min-width: 481px) and (max-width: 767px) {
-   .app-aside{
-    width: 186px;
-   }
-   .app.app-slide-toggle .app-aside{
-    //transition: all 0.3s ease;
-    left: -186px;
+@media (max-width:480px){
+    .app-aside{
+        left: -186px;
+        transition: all 0.3s ease,
+        width 0.3s ease;
     }
-    .app.app-slide-toggle .app-main{
-        transition: all 0.3s ease;
-        margin-left: 0;
+    .app-content{
+        margin-left:0px;
+    }
+    .app.app-slidebar-toggled .app-aside{
+        margin-left: 186px;
+        width: 186px;
+        transition: all 0.3s ease,
+        width 0.3s ease;
+    }
+    .app.app-slidebar-toggled .app-content{
+        margin-left: 0px;
+    }
+    .card{
+        margin-top: 5px;
+    }
+    .app-footer{
+        margin-left: 0px;
+    }
+    .app.app-slidebar-toggled .app-footer{
+        margin-left: 0px;
     }
 }
-/*.app.app-slide-toggle .app-aside{
-    //transition: all 0.3s ease;
-    left: -186px;
+@media(min-width: 768px){
+    .app-aside{
+        width: 186px;
+    }
+    .app-footer{
+        margin-left: 186px;
+    }
+    .app.app-slidebar-toggled .app-aside{
+        left: -186px;
+    }
+    .app.app-slidebar-toggled .app-content{
+        margin-left: 0px;
+    }
+    .app.app-slidebar-toggled .app-footer{
+        margin-left: 0px;
+    }
 }
-.app.app-slide-toggle .app-main{
-    transition: all 0.3s ease;
-    margin-left: 0;
-}*/
