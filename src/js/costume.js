@@ -4,4 +4,7 @@
         event.preventDefault();
         $(".app").toggleClass("app-slidebar-toggled");
     });
+    /*$(".app-content").click(function(){
+        $(".app-aside").addClass("hidden");
+    });*/
 })();
